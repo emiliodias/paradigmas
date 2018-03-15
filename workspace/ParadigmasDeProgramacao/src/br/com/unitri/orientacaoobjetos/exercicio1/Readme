@@ -1,0 +1,55 @@
+Sistema de Pedidos
+
+Agora que você já estudou algumas técnicas de orientação a objetos, programação imperativa e programação procedural,
+chegou a hora de você criar um sistema de pedidos.
+
+Para o desenvolvimento deste exercício você deve:
+
+	- Escolher UM colega para sua equipe (caso queira, pode ser feito individualmente)
+	- Você deve utilizar todo seu conhecimento para o desenvolvimento, NÃO é necessário
+	  utilizar todas as técnicas discutidas em sala de aula. Você deve analisar o problema
+	  e desenvolver uma solução da forma que você e seu colega de equipe acreditem ser a ideal.
+
+Seu sistema deve permitir:
+
+- Cadastro, remoção, atualização e busca(por id) de clientes
+- Cadastro, remoção, atualização e busca(por id) de produtos
+- Cadastro, remoção, atualização e busca(por id) de pedidos
+	- Um pedido não pode ser feito para um produto com estoque <= 0
+	- O valor total do pedido deve ser a soma dos valores de todos os produtos
+- Impressão de um pedido por Id:
+	- Informado um determinado ID, o sistema deve listar as informações do pedido solicitado
+
+Informações importantes:
+
+- Para o cadastro de cliente você deve considerar:
+
+	- Cliente deve ter os campos:
+		- Id
+		- Nome
+		- Endereço
+		- Idade
+		- Telefone
+		
+	- Produto deve ter os campos:
+		- Id
+		- Nome
+		- Descrição
+		- Preço
+		- Quantidade em estoque
+		
+	- Um pedido deve ter:
+		- Id
+		- Cliente
+		- Uma lista de produtos
+		- Um valor total do pedido
+		- Data
+
+Regras de negócio:
+
+- Clientes não podem ter ID igual
+- Apenas clientes maiores de 18 anos podem fazer compras
+- Todos os campos do cliente são de preenchimento obrigatório
+- Produtos não podem ter ID igual
+- Todos os campos do produto são de preenchimento obrigatório
+- Todos os campos do pedido são de preenchimento obrigatório
