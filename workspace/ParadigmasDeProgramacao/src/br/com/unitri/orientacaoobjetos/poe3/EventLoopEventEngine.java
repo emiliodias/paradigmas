@@ -39,7 +39,7 @@ public class EventLoopEventEngine {
 						
 						if(listener != null) {
 							
-							/*new Thread() {
+							new Thread() {
 								
 								public void run() {
 							
@@ -47,8 +47,7 @@ public class EventLoopEventEngine {
 									
 								}
 								
-							}.start();*/
-							listener.onRecieve(evento);
+							}.start();
 							
 						}
 						
